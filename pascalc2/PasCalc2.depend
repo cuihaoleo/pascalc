@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1242446676 source:d:\pascalc2_c\constnum.c
+	"pascalc.h"
+
+1242448311 d:\pascalc2_c\pascalc.h
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<ctype.h>
+	<complex.h>
+	<stdlib.h>
+
+1242221066 source:d:\pascalc2_c\functions.c
+	"pascalc.h"
+
+1241944080 source:d:\pascalc2_c\stdinput.c
+	"pascalc.h"
+
+1241944086 source:d:\pascalc2_c\symname.c
+	"pascalc.h"
+
+1242221155 source:d:\pascalc2_c\pascalc.c
+	"pascalc.h"
+
+1242301963 source:d:\pascalc2_c\calc.c
+	"pascalc.h"
+
