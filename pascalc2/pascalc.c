@@ -41,7 +41,7 @@ int main(void)
 {
     char rd[256];
 
-    printf("PasCalc 2 Beta(090626)\n");
+    printf("PasCalc 2 Beta(090829)\n");
     printf("Copyright (C) 2009 Cui Hao\n");
 
     clr();
@@ -156,7 +156,7 @@ void func(void)
     {
         printf("    %0.8"DFout,REALPART(var['X'-'A']));
 
-        calcexp(rdexp,&tmp);
+        calcexp(rd,&tmp);
         prncpx(tmp);
     }
 

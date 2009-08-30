@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="calc.c" open="1" top="0" tabpos="5">
-		<Cursor position="399" topLine="0" />
+	<File name="calc.c" open="1" top="1" tabpos="5">
+		<Cursor position="2389" topLine="49" />
 	</File>
 	<File name="constnum.c" open="1" top="0" tabpos="2">
 		<Cursor position="16" topLine="0" />
@@ -10,17 +10,17 @@
 	<File name="functions.c" open="1" top="0" tabpos="1">
 		<Cursor position="17" topLine="0" />
 	</File>
-	<File name="help.txt" open="1" top="1" tabpos="8">
+	<File name="help.txt" open="1" top="0" tabpos="8">
 		<Cursor position="5401" topLine="88" />
 	</File>
 	<File name="pascalc.c" open="1" top="0" tabpos="4">
-		<Cursor position="11" topLine="0" />
+		<Cursor position="3115" topLine="136" />
 	</File>
 	<File name="pascalc.h" open="1" top="0" tabpos="3">
 		<Cursor position="17" topLine="0" />
 	</File>
 	<File name="stdinput.c" open="1" top="0" tabpos="6">
-		<Cursor position="16" topLine="0" />
+		<Cursor position="16" topLine="9" />
 	</File>
 	<File name="symname.c" open="1" top="0" tabpos="7">
 		<Cursor position="130" topLine="0" />

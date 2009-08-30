@@ -61,7 +61,7 @@ cmpxfloat funcalc(const char* s,temp prm)
 
         else if (strcmp(s,"abs")==0) return abs(prm.savenum[0]);
         else if (strcmp(s,"hypot")==0) return hypotl(REALPART(prm.savenum[0]),REALPART(prm.savenum[1]));
-        else if (strcmp(s,"evo")==0) return powl(prm.savenum[0],1/prm.savenum[1]);
+        else if (strcmp(s,"evo")==0) return exp(1/prm.savenum[1]*log(prm.savenum[0]));
         else if (strcmp(s,"log")==0) return logl(prm.savenum[1])/logl(prm.savenum[0]);
         else if (strcmp(s,"ln")==0) return logl(prm.savenum[0]);
         else if (strcmp(s,"exp")==0) return expl(prm.savenum[0]);
@@ -157,7 +157,8 @@ cmpxfloat calcmain(readlist arr)
     char* stk_sym[10]={"\0"};
     short c_num=-1,c_sym=-1;
 
-    while ( (*arr).flag!=nothing && (*arr).data.sm[0]!=')' && (*arr).data.sm[0]!=',')
+    while (((*arr).flag!=nothing) &&
+            ((*arr).flag!=opr || ((*arr).data.sm[0]!=')' && (*arr).data.sm[0]!=',')))
     {
         if ((*arr).flag==num)
         {

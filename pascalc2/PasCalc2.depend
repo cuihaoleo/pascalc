@@ -25,3 +25,55 @@
 1242301963 source:d:\pascalc2_c\calc.c
 	"pascalc.h"
 
+1245841799 source:d:\编程\ing\pascalc2\constnum.c
+	"pascalc.h"
+
+1245841799 d:\编程\ing\pascalc2\pascalc.h
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<ctype.h>
+	<complex.h>
+	<stdlib.h>
+
+1245841799 source:d:\编程\ing\pascalc2\functions.c
+	"pascalc.h"
+
+1246011511 source:d:\编程\ing\pascalc2\pascalc.c
+	"pascalc.h"
+
+1245841798 source:d:\编程\ing\pascalc2\stdinput.c
+	"pascalc.h"
+
+1245841798 source:d:\编程\ing\pascalc2\symname.c
+	"pascalc.h"
+
+1245841799 source:d:\编程\ing\pascalc2\calc.c
+	"pascalc.h"
+
+1245841799 source:d:\programming\ing\pascalc2\constnum.c
+	"pascalc.h"
+
+1245841799 d:\programming\ing\pascalc2\pascalc.h
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<ctype.h>
+	<complex.h>
+	<stdlib.h>
+
+1245841799 source:d:\programming\ing\pascalc2\functions.c
+	"pascalc.h"
+
+1251548067 source:d:\programming\ing\pascalc2\pascalc.c
+	"pascalc.h"
+
+1245841798 source:d:\programming\ing\pascalc2\stdinput.c
+	"pascalc.h"
+
+1245841798 source:d:\programming\ing\pascalc2\symname.c
+	"pascalc.h"
+
+1245841799 source:d:\programming\ing\pascalc2\calc.c
+	"pascalc.h"
+
